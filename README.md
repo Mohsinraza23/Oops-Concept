@@ -1,4 +1,3 @@
-
 # 🐍 Python OOPs Concepts Project by Mohsin Raza
 
 Welcome to my OOPs in Python project! This repository is created to help beginners understand **Object-Oriented Programming** using **real-world relatable examples** such as phones, vehicles, and more.
@@ -38,10 +37,10 @@ phone2 = Phone("iPhone", 150000)
 
 phone1.call()
 phone2.call()
+
+
 🔐 2. Encapsulation – Example: Phone Password Lock
-python
-Copy
-Edit
+
 class Phone:
     def __init__(self, brand):
         self.brand = brand
@@ -55,10 +54,10 @@ class Phone:
 
 p = Phone("Samsung")
 p.unlock("1234")
+
+
 🚘 3. Inheritance – Example: Car from Vehicle
-python
-Copy
-Edit
+
 class Vehicle:
     def start(self):
         print("Vehicle started")
@@ -70,10 +69,10 @@ class Car(Vehicle):
 c = Car()
 c.start()
 c.play_music()
+
+
 🔁 4. Polymorphism – Example: Power Button Behavior
-python
-Copy
-Edit
+
 class Samsung:
     def press(self):
         print("Samsung powering on...")
@@ -87,6 +86,7 @@ def power_button(phone):
 
 power_button(Samsung())
 power_button(iPhone())
+
 🎯 Student Challenge
 Try building your own:
 
